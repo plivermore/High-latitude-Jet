@@ -1,0 +1,13 @@
+'Spline_coeffs.txt'
+6  !order of splines
+2000 2016  1.0
+13   !max degree for MF
+16   !max degree for SV
+0.12 !delta
+1    !max wave number
+60 80  !min/max latitudes
+-80 -60    !2nd latitude range.
+1   !filter SV synthetics? 1 = yes, 0= no
+200 200 !Number theta grid pts for transform (if applicable); Number theta grid points for integration
+360 720 !pts for visualisation
+Jet  !file stem for flow grid output

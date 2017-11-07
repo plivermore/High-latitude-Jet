@@ -1,1 +1,13 @@
-some text
+This code reproduces the high-latitude Jet flow as described in the paper
+Livermore, P. W., Hollerbach, R., & Finlay, C. C. (2017). An accelerating high-latitude jet in Earth’s core. Nature Geoscience, 10(1), 62–68. http://doi.org/10.1038/ngeo2859
+
+To build, type
+
+make Siberian_jet_time_evolution
+
+and then
+
+Siberian_jet_time_evolution < input
+
+
+The file "input" contains all the relevant parameters to reproduce the flows as described in the paper.
